@@ -2,6 +2,8 @@ import React from 'react';
 import { Container } from '@material-ui/core';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { GoogleOAuthProvider } from "@react-oauth/google";
+// import dotenv from 'dotenv';
+// dotenv.config();
 
 import PostDetails from './components/PostDetails/PostDetails';
 import Navbar from './components/Navbar/Navbar';
@@ -13,7 +15,7 @@ const App = () => {
   const user = JSON.parse(localStorage.getItem('profile'));
 
   return (
-    <GoogleOAuthProvider clientId="668230379476-dekcorlfssabesv6lglkkepujh16tpie.apps.googleusercontent.com">
+    // <GoogleOAuthProvider clientId={process.env.REACT_APP_GCI}>
     <BrowserRouter>
       <Container maxWidth="xl">
         <Navbar />
@@ -27,7 +29,7 @@ const App = () => {
         </Switch>
       </Container>
     </BrowserRouter>
-    </GoogleOAuthProvider>
+    // </GoogleOAuthProvider>
   );
 };
 
