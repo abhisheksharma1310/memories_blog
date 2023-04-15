@@ -7,8 +7,7 @@ import {
   Typography,
   Container,
 } from "@material-ui/core";
-import { GoogleLogin } from "@react-oauth/google";
-import jwt_decode from "jwt-decode";
+//import jwt_decode from "jwt-decode";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
@@ -56,23 +55,23 @@ const Auth = () => {
     setShowPassword(false);
   };
 
-  const googleSuccess = async (res) => {
-    if (res.credential != null) {
-      const token = res.credential;
-      const result = jwt_decode(token);
-      console.log(result);
-      try {
-        dispatch({ type: "AUTH", data: { result, token } });
-        history.push("/");
-      } catch (error) {
-        console.log(error);
-      }
-    }
-  };
+  // const googleSuccess = async (res) => {
+  //   if (res.credential != null) {
+  //     const token = res.credential;
+  //     const result = jwt_decode(token);
+  //     console.log(result);
+  //     try {
+  //       dispatch({ type: "AUTH", data: { result, token } });
+  //       history.push("/");
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   }
+  // };
 
-  const googleFailure = (Error) => {
-    console.log("Google Sign In Error. ", Error);
-  };
+  // const googleFailure = (Error) => {
+  //   console.log("Google Sign In Error. ", Error);
+  // };
 
   return (
     <Container component="main" maxWidth="xs">
