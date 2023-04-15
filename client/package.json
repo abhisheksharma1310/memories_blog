@@ -1,9 +1,7 @@
 {
-  "homepage": "https://abhisheksharma1310.github.io/memories_blog",
   "name": "memories_blog",
-  "version": "1.0",
+  "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
   "dependencies": {
     "@material-ui/core": "^4.9.10",
     "@material-ui/icons": "^4.9.1",
@@ -13,6 +11,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "dotenv": "^16.0.3",
     "jwt-decode": "^3.1.2",
     "material-ui-chip-input": "^1.1.0",
     "moment": "^2.27.0",
