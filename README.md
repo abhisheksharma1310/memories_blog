@@ -15,7 +15,7 @@
 <p align="center">
 <img src="snap/signin_page.jpg"></p>
 
-<h3 align="center">Keeper Web App Desktop View - a live demo</h3>
+<h3 align="center">Memories Web App Desktop View - a live demo</h3>
 
 <p>This web app is created using Reactjs in frontend side and Nodejs and Expressjs in backend side. <br> Backend are connected using MongoDb Atlas Cloud database for user and blog posts data storage. <br> Frontend and Backend are connected using REST API's<br>
 This web application is a complete example of Fullstack MERN (MongoDb, ExpressJs, ReactJs and NodeJs) web app. <br> This application uses all CRUD (CREATE, READ, UPDATE and DELETE) operations.<br>
