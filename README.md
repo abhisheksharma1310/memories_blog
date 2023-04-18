@@ -29,7 +29,7 @@ This application can be used for Memories sharing between friends and family.
 - ReactJs
 - Redux
 - Axios
-- React-Roter
+- React-Router
 - Material UI
 
 ### BAckend Technologies
