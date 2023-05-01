@@ -4,7 +4,7 @@
 <p align="center">
 <img src="snap/homepage.jpg" width="90%"></p>
 
-<h2 align="center"><a href="https://famous-nasturtium-884aa6.netlify.app">👆 Clike here for live demo 💻</a></h2>
+<h2 align="center"><a href="https://famous-nasturtium-884aa6.netlify.app">👆 Click here for live demo 💻</a></h2>
 
 ---
 
