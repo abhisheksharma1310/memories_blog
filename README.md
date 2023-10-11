@@ -4,7 +4,7 @@
 <img src="https://i.ibb.co/r0pdc8Y/memories-mockup-nobg.png" alt="memories-mockup-nobg" border="0">
 </p>
 
-<h2 align="center"><a href="https://famous-nasturtium-884aa6.netlify.app">👆 Clike here for live demo 💻</a></h2>
+<h2 align="center"><a href="https://famous-nasturtium-884aa6.netlify.app">👆 Click here for live demo 💻</a></h2>
 
 ## Description
 
