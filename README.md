@@ -1,19 +1,17 @@
-
 <h1 align="center">Memories Blog Fullstack MERN web app</h1>
 
 <p align="center">
-<img src="snap/homepage.jpg" width="90%"></p>
+<img src="https://i.ibb.co/r0pdc8Y/memories-mockup-nobg.png" alt="memories-mockup-nobg" border="0">
+</p>
 
 <h2 align="center"><a href="https://famous-nasturtium-884aa6.netlify.app">👆 Clike here for live demo 💻</a></h2>
-
----
 
 ## Description
 
 **Memories Blog Fullstack MERN Web App**
 
 <p align="center">
-<img src="snap/signin_page.jpg"></p>
+<img src="snap/homepage.jpg" width="90%"></p>
 
 <h3 align="center">Memories Web App Desktop View - a live demo</h3>
 
@@ -25,14 +23,17 @@ This application can be used for Memories sharing between friends and family.
 ---
 
 ## Technologies used
+
 ### Frontend Technolgois
+
 - ReactJs
 - Redux
 - Axios
 - React-Router
 - Material UI
 
-### BAckend Technologies
+### Backend Technologies
+
 - NodeJs
 - ExpressJs
 - Mongoose
@@ -41,7 +42,7 @@ This application can be used for Memories sharing between friends and family.
 ---
 
 ## Features
- 
+
 <p align="center">
 <img src="snap/signup_page.jpg">User signup</p>
 
@@ -55,7 +56,6 @@ This application can be used for Memories sharing between friends and family.
 <p align="center">
 <img src="snap/post_view.jpg">Read Post</p>
 
-
 <p align="center">
 <img src="snap/edit_post.jpg"></p>
 <p align="center">Like post, Edit post, Delete post</p>
@@ -66,18 +66,16 @@ This application can be used for Memories sharing between friends and family.
 
 <p align="center">
 <img src="snap/search_post.jpg"></p>
-<p align="center">Serch post by title, tags, and creator</p> 
+<p align="center">Serch post by title, tags, and creator</p>
 
 <p align="center">
 <img src="snap/recommended_posts.jpg">Post recommendation</p>
-
 
 <p align="center">
 <img src="snap/search_by_creator.jpg">Search results by creator</p>
 
 <p align="center">
 <img src="snap/search_by_tag.jpg">Search results by tags</p>
-
 
 ---
 
@@ -91,6 +89,7 @@ This application can be used for Memories sharing between friends and family.
 git clone https://github.com/abhisheksharma1310/memories_blog.git
 cd memories_blog/
 ```
+
 - Install all packages for client and server
 
 - Run webapp
@@ -105,5 +104,3 @@ npm run start
 ```
 npm run build
 ```
-
-
