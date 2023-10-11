@@ -14,15 +14,15 @@ import { useHistory } from "react-router-dom";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import useStyles from "./styles";
 import Input from "./Input";
-import {signin, signup } from '../../actions/auth';
+import { signin, signup } from "../../actions/auth";
 
 const intialState = {
-  firstName: '',
-  lastName: '',
-  email: '',
-  password: '',
-  confirmPassword: ''
-}
+  firstName: "",
+  lastName: "",
+  email: "",
+  password: "",
+  confirmPassword: "",
+};
 
 const Auth = () => {
   const classes = useStyles();
@@ -39,7 +39,7 @@ const Auth = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(isSignup){
+    if (isSignup) {
       dispatch(signup(formData, history));
     } else {
       dispatch(signin(formData, history));
@@ -47,7 +47,7 @@ const Auth = () => {
   };
 
   const handleChange = (e) => {
-    setFormData({...formData, [e.target.name]: e.target.value})
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const switchMode = () => {
@@ -81,7 +81,7 @@ const Auth = () => {
         </Avatar>
         <Typography variant="h5">{isSignup ? "Sign Up" : "Sign In"}</Typography>
         <form className={classes.form} onSubmit={handleSubmit}>
-          <Grid container spacing={12}>
+          <Grid className={classes.grid} container spacing={12}>
             {isSignup && (
               <>
                 <Input
@@ -89,13 +89,11 @@ const Auth = () => {
                   label="First Name"
                   handleChange={handleChange}
                   autoFocus
-                  half
                 />
                 <Input
                   name="lastName"
                   label="Last Name"
                   handleChange={handleChange}
-                  half
                 />
               </>
             )}
