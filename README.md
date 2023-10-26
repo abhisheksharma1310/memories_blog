@@ -4,7 +4,7 @@
 <img src="https://i.ibb.co/r0pdc8Y/memories-mockup-nobg.png" alt="memories-mockup-nobg" border="0">
 </p>
 
-<h2 align="center"><a href="https://famous-nasturtium-884aa6.netlify.app">👆 Click here for live demo 💻</a></h2>
+<h2 align="center"><a href="https://memoriesblogposts.netlify.app/">👆 Click here for live demo 💻</a></h2>
 
 ## Description
 
@@ -43,39 +43,18 @@ This application can be used for Memories sharing between friends and family.
 
 ## Features
 
-<p align="center">
-<img src="snap/signup_page.jpg">User signup</p>
-
-<p align="center">
-<img src="snap/signin_page.jpg">User signin</p>
-
-<p align="center">
-<img src="snap/create_post.jpg"></p>
-<p align="center">Create Post</p>
-
-<p align="center">
-<img src="snap/post_view.jpg">Read Post</p>
-
-<p align="center">
-<img src="snap/edit_post.jpg"></p>
-<p align="center">Like post, Edit post, Delete post</p>
-
-<p align="center">
-<img src="snap/comment.jpg"></p>
-<p align="center">commnet on post</p>
-
-<p align="center">
-<img src="snap/search_post.jpg"></p>
-<p align="center">Serch post by title, tags, and creator</p>
-
-<p align="center">
-<img src="snap/recommended_posts.jpg">Post recommendation</p>
-
-<p align="center">
-<img src="snap/search_by_creator.jpg">Search results by creator</p>
-
-<p align="center">
-<img src="snap/search_by_tag.jpg">Search results by tags</p>
+- User signup
+- User signin
+- Create Post
+- Read Post
+- Like post
+- Edit post
+- Delete post
+- commnet on post
+- Serch post by title, tags, and creator
+- Post recommendation
+- Search results by creator
+- Search results by tags
 
 ---
 
