@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import {
   Avatar,
   Button,
@@ -24,6 +25,11 @@ const intialState = {
   confirmPassword: "",
 };
 
+const guest = {
+  email: process.env.REACT_APP_EM,
+  password: process.env.REACT_APP_PS,
+};
+
 const Auth = () => {
   const classes = useStyles();
 
@@ -45,6 +51,10 @@ const Auth = () => {
       dispatch(signin(formData, history));
     }
   };
+
+  const loginAsGuest = () => {
+    dispatch(signin(guest, history));
+  }
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -81,7 +91,7 @@ const Auth = () => {
         </Avatar>
         <Typography variant="h5">{isSignup ? "Sign Up" : "Sign In"}</Typography>
         <form className={classes.form} onSubmit={handleSubmit}>
-          <Grid className={classes.grid} container spacing={12}>
+          <Grid className={classes.grid} container spacing={0}>
             {isSignup && (
               <>
                 <Input
@@ -134,6 +144,13 @@ const Auth = () => {
             onError={googleFailure}
             useOneTap
           /> */}
+          <Grid container justify="flex-end">
+            <Grid item>
+              <Button onClick={loginAsGuest}>
+                Sign in as Guest
+              </Button>
+            </Grid>
+          </Grid>
           <Grid container justify="flex-end">
             <Grid item>
               <Button onClick={switchMode}>
